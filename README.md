@@ -1,7 +1,7 @@
 # Slowloris.pl
 **ABSTRACT:**
 
-Slowloris.pl perl denial of service (DOS) program modified by ArgentRed
+Slowloris.pl perl denial of service (DOS) program originally created by RSnake, modified by ArgentRed.
 
 ---
 
