@@ -1,0 +1,54 @@
+Slowloris.pl guide (rewritten by ArgentRed)
+
+
+
+This guide is written with the intention that the user is using a Windows OS and is launching 
+a slowloris attack. Since the combined size of slowloris.pl & Perl (at the time of typing this) 
+is less than 1GB you can utilize cheap flashdrives to turn public computers into launchpads for 
+slowloris dos attacks. Or, you can use this guide more traditionally and launch a slowloris 
+attack from your own personal computer.
+
+
+
+REQUIREMENTS:
+
+-	slowloris.pl
+
+-	Perl
+
+-	Terminal
+
+-	An internet connection
+
+-	A target
+
+
+
+STEPS:
+
+
+1)	Download Perl
+
+
+
+2)	Download slowloris.pl
+
+
+
+3)	Open terminal
+
+
+
+4)	Enter 'set PATH=[drive letter of drive with Perl]:\[Perl folder name]\bin;%PATH%'
+	
+EXAMPLE:	'set PATH=C:\Perl64\bin;%PATH%'
+
+
+
+5)	Enter '[path to perl.exe] [path to slowloris.pl]' into terminal and hit enter
+	
+EXAMPLE:	'C:\Perl64\bin\perl.exe C:\User1\Documents\slowloris.pl'
+
+
+
+6)	Follow on-screen prompts from slowloris.pl in the terminal
