@@ -27,10 +27,10 @@ This guide is written in such a manner that the program can be executed by anybo
 
 4)	Enter 'set PATH=[drive letter of drive with Perl]:\[Perl folder name]\bin;%PATH%'
 
-EXAMPLE: *'set PATH=C:\Perl64\bin;%PATH%'*
+EXAMPLE:    'set PATH=C:\Perl64\bin;%PATH%'
 
 5)	Enter '[path to perl.exe] [path to slowloris.pl]' into terminal and hit enter
 
-EXAMPLE: *'C:\Perl64\bin\perl.exe C:\User1\Documents\slowloris.pl'*
+EXAMPLE:    'C:\Perl64\bin\perl.exe C:\User1\Documents\slowloris.pl'
 
 6)	Follow on-screen prompts from slowloris.pl in the terminal
