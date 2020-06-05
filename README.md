@@ -29,8 +29,22 @@ This guide is written in such a manner that the program can be executed by anybo
 
 *EXAMPLE:*    'set PATH=C:\Perl64\bin;%PATH%'
 
-5)	Enter '[path to perl.exe] [path to slowloris.pl]' into terminal and hit enter
+5)  Enter '[path to perl.exe] [path to slowloris.pl]' into terminal and hit enter
 
 *EXAMPLE:*    'C:\Perl64\bin\perl.exe C:\User1\Documents\slowloris.pl'
 
 6)	Follow on-screen prompts from slowloris.pl in the terminal
+
+*NOTE:* You only have to do these steps once!
+
+**CREATING A SHORTCUT:**
+
+Because it's more convienent this way.
+
+1)  Right click on desktop.
+
+2)  'New' -> 'Shortcut'
+
+3)  Paste '%windir%\system32\cmd.exe /k [LOCATION OF PERL.exe] [LOCATION OF SLOWLORIS.PL]
+
+*EXAMPLE:*      %windir%\system32\cmd.exe /k C:\Perl64\bin\perl.exe C:\Users\User1\Documents\slowloris.pl
