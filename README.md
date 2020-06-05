@@ -47,4 +47,4 @@ Because it's more convienent this way.
 
 3)  Paste '%windir%\system32\cmd.exe /k [LOCATION OF PERL.exe] [LOCATION OF SLOWLORIS.PL]
 
-*EXAMPLE:*      %windir%\system32\cmd.exe /k C:\Perl64\bin\perl.exe C:\Users\User1\Documents\slowloris.pl
+*EXAMPLE:*       '%windir%\system32\cmd.exe /k C:\Perl64\bin\perl.exe C:\Users\User1\Documents\slowloris.pl'
