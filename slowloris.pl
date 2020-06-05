@@ -61,7 +61,12 @@ if ($version) {
 
 unless ($host) {
     print "\n\n\tUse with Default Settings: \t'perl $0 -dns www.example.com -options'\n";
-    print "\n\tDetails, Options & Examples: \t'perldoc $0'\n\n";
+	print "\n\n\tReplace '-options' with at the end of the default sequence with these:
+	\n\t\t'-port'			changes the port (EXAMPLE: '-port 443')
+	\n\t\t'-timeout'		changes the timeout window in seconds (EXAMPLE: '-timeout 1000)
+	\n\t\t'- num'			changes the number of sockets slowloris opens (EXAMPLE: '-num 3000')
+	\n\t\tEXAMPLE: 		perl ./slowloris.pl -dns www.example.com -port 443 -timeout 1000 -num 3000";
+    print "\n\n\tDetails, Options & Examples: \t'perldoc $0'\n\n";
     exit;
 }
 
